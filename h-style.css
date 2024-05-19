@@ -27,3 +27,17 @@ div{
     font-size: 24px;
     font-weight: bold;
 }
+
+.first-btn,.sec-btn{
+    font-size: 28px;
+    font-family: "Helvetica", Times New Roman, sans-serif;
+    margin-top: 25px;
+    margin-left: 35px;
+.first-btn{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-weight: bold;
+}
+.sec-btn{
+    background-color: hsl(60, 80%, 67%);
+}
