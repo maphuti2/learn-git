@@ -11,3 +11,19 @@ div{
     text-align: center;
 }
 
+.odd-num{
+    background-color: #FFC0CB;
+    font-family: 'verdana', DejaVu sans, sans-serif;
+}
+#even-1{
+    color: #00f;
+    font-size: 36px;
+}
+.add-font{
+    font-size: 24px;
+}
+#even-2{
+    background-color: #90EE90;
+    font-size: 24px;
+    font-weight: bold;
+}
