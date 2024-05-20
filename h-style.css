@@ -42,3 +42,12 @@ div{
 .sec-btn{
     background-color: hsl(60, 80%, 67%);
 }
+
+.ava.prop{
+    width: 300px;
+    height: auto;
+}
+.ava.dist{
+    width: 200px;
+    height: 400px;
+}
