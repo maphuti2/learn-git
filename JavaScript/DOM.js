@@ -39,3 +39,19 @@ para2.textContent = "ME TOO!";
 secDiv.appendChild(header1);
 secDiv.appendChild(para2);
 container.appendChild(secDiv);
+
+// Button features
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", () => alert("looks like it's working!"));
+
+function message(){
+    alert("Fede just did it...");
+}
+
+let btn1 = document.createElement("button");
+btn1.classList.add("btn1");
+btn1.textContent = "Press Me";
+container.appendChild(btn1);
+
+btn1 = document.querySelector(".btn1");
+btn1.addEventListener("click", () => message());
