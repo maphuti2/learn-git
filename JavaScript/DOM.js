@@ -65,4 +65,4 @@ const text = document.createTextNode("- get ready to explore the world of devs")
 const linkpara = document.querySelector("p");
 linkpara.appendChild(text);
 sect.appendChild(linkpara);
-sect.removeChild(linkpara);
+linkpara.remove();
