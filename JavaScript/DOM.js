@@ -42,7 +42,7 @@ container.appendChild(secDiv);
 
 // Button features
 const btn = document.querySelector("#btn");
-btn.addEventListener("click", () => alert("looks like it's working!"));
+btn.addEventListener("click",function (e){e.target.style.background = "blue"});
 
 function message(){
     alert("Fede just did it...");
@@ -55,3 +55,14 @@ container.appendChild(btn1);
 
 btn1 = document.querySelector(".btn1");
 btn1.addEventListener("click", () => message());
+
+const sect = document.querySelector("section");
+const para = document.createElement("p");
+para.textContent = "Hope You Enjoy Your Ride.";
+sect.appendChild(para);
+
+const text = document.createTextNode("- get ready to explore the world of devs");
+const linkpara = document.querySelector("p");
+linkpara.appendChild(text);
+sect.appendChild(linkpara);
+sect.removeChild(linkpara);
