@@ -1,0 +1,36 @@
+table{
+    border: 1px solid #da3;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #da3;
+    padding: 4px;
+    text-align: left;
+}
+
+th{
+    background: rgb(241, 185, 52);
+    color: seashell
+}
+
+tr:nth-child(even){
+    background: rgb(240, 208, 135);
+}
+
+tr:nth-child(odd){
+    background: rgb(219, 210, 188);
+}
+
+tr:hover{
+    background: rgb(241, 185, 52);
+}
+
+tfoot tr td{
+    text-align: center;
+}
+
+col:nth-child(2){
+    background-color: aliceblue;
+}
