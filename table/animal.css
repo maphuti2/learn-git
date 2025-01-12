@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0.8rem;
+}
+
+table{
+    margin-left: 0.8rem;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+
+}
+
+th, td{
+    border: 1px solid #cccccc;
+    padding: 0.6rem 1.3rem;
+}
+
+th{
+    background: #eee;
+}
+
+td{
+    background: #fdfdfd;
+}
