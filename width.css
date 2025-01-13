@@ -5,16 +5,22 @@
     margin: 0;padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", serif;
-    font-size: 1rem;
 }
 
 body{
     margin: 1.5rem;
 }
 
+h1{
+    text-shadow: .1em .2em ;
+}
+
 p{
     width: 75ch;
     margin-bottom: 0.8em;
+    line-height: 1.5em;
+    font-size: 1rem;
+    text-transform:capitalize
 }
 
 div{
