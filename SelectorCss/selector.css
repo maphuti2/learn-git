@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #dad4d4;
+}
+
+.parent{
+    width: 35vw;
+    border: 2px solid black;
+    margin: 0.8em;
+    padding: 0.2em;
+}
+
+.child{
+    width: 33vw;
+    border: 1px solid blue;
+    margin: 0.5em;
+    padding: 0.4em;
+}
+
+.grand-child{
+    width: 33vw;
+    border: 1px solid peru;
+    margin: 0.5em;
+    padding: 0.4em;
+}
