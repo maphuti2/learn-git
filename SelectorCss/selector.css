@@ -13,15 +13,60 @@
 }
 
 .child{
-    width: 33vw;
+    width: 30vw;
     border: 1px solid blue;
     margin: 0.5em;
     padding: 0.4em;
 }
 
 .grand-child{
-    width: 33vw;
+    width: 25vw;
     border: 1px solid peru;
     margin: 0.5em;
     padding: 0.4em;
 }
+
+.parent > div{
+    text-decoration:line-through;
+}
+
+.parent > div > div{
+    text-decoration:none;
+    color: burlywood;
+}
+
+.group1 + div{
+    text-decoration: none;
+    color: rgb(4, 151, 102);
+}
+
+.group1 + div + div{
+    color: rgb(4, 151, 102);
+    text-decoration: none;
+}
+
+.group1 ~ div{
+    font-size: 1.2rem;
+    color: coral;
+    text-transform: uppercase;
+}
+
+.gp1:hover{
+    background: #474afc;
+    cursor: pointer;
+}
+
+.parent .gp1:first-child{
+    color: red;
+}
+
+.group1::before{
+    content: "Thapelo is here!";
+    color: red;
+}
+
+.group1::after{
+    content: " Hahaha...";
+    text-decoration: none;
+}
+
