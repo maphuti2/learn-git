@@ -4,6 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Form</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        form{
+            display: inline-block;
+            padding: 1.2em;
+            border: 2px solid blue;
+            border-radius: 1em;
+        }
+
+        input{
+            margin-bottom: 2em;
+        }
+
+        button{
+            margin-top: 2em;
+            margin-left: 0.5em;
+            padding: .5em;
+        }
+
+        input:focus, textarea:focus{
+            outline-style: solid;
+            outline-color: blue;
+        }
+
+        textarea{
+            vertical-align: top;
+            height: 5em;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <form action="" method="post">
@@ -18,10 +52,10 @@
             <label for="msg">message: </label>
             <textarea name="message" id="msg">
                 
-            </textarea>
-
+            </textarea> <br>
+            <button type="submit">Send Your Message</button>
         </fieldset>
-        <button type="submit">Send Your Message</button>
+        
     </form>
 </body>
 </html>
