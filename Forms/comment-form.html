@@ -6,6 +6,36 @@
     <title>Comment Form</title>
 </head>
 <body>
-    
+    <div class="comment-page">
+        <h1>Write your comment</h1>
+    </div>
+    <form class="comment-form">
+        <div class="comment-name">
+            <input type="text" name="name" id="name" placeholder="Name *" required pattern="^[^0-9]+$" size="30" maxlength="100">
+            <label for="name">Name</label>
+        </div>
+
+        <div class="comment-surname">
+            <input type="text" name="surname" id="surname" placeholder="surname *" required pattern="^[^0-9]+$" size="30" maxlength="100">
+            <label for="surname">Surname</label>
+        </div>
+
+        <div class="comment-email">
+            <input type="email" name="email" id="email" placeholder="Email *" required pattern="^[^0-9]+$" size="30" maxlength="100" aria-describedby="email notes" >
+            <label for="email">Email</label>
+        </div>
+
+        <div class="comment-web">
+            <input type="url" name="website" id="site" placeholder="website" pattern="^[^0-9]+$" size="30" maxlength="254">
+            <label for="site">website</label>
+        </div>
+
+        <div class="comment"><textarea name="comment" id="comment" cols="45" rows="8" placeholder="comment *" required></textarea>
+        </div>
+
+        <div class="post-comment">
+            <input type="submit" name="submit" id="submit" value="Post Comment" class="submit">
+        </div>
+    </form>
 </body>
 </html>
