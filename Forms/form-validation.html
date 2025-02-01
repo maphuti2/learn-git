@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
+
+    <style>
+        input{
+            appearance: none;
+        }
+        input:invalid{
+            border: 2px solid red;
+        }
+
+        input:valid{
+            border: 2px solid green;
+        }
+
+
+    </style>
 </head>
 <body>
     <form action="#" method="get">
@@ -31,7 +46,16 @@
             <div><label for="day">Number of Days</label>
                 <input type="number" name="days" id="day" min="2" value="0">
             </div>
+
+            <p><label for="zipCode">Zip Code: </label>
+                <input type="text" name="zipCode" id="zipCode" title="Please enter your postal address. example '0727'" pattern="(\d{4})" required>
+            </p>
         </fieldset>
+        <fieldset>
+            <label for="like">Would you prefer Apple or Banana</label>
+            <input type="text" name="i-like" id="like" pattern="[Aa]pple|[Bb]anana" placeholder="Banana">
+        </fieldset>
+        <button type="submit">submit</button>
     </form>
 </body>
 </html>
