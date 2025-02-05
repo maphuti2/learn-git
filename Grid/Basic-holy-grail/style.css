@@ -21,8 +21,8 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: 300px 900px;
-    grid-template-rows: 70px 70px 420px 70px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
     gap: 15px;
     margin: 0.2em;
 }
