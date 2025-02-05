@@ -2,5 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: brown;
+}
+
+.header{
+    background-color: #393f4d;
+}
+
+.sidebar {
+    background-color: #C50208;
+  }
+
+.nav {
+   background-color: #C50208;
+}
+
+.article {
+    background-color: #bccbde;
+}
+
+.footer {
+    background-color: #393f4d;
 }
