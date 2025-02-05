@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
+.container{
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 4px;
+}
+
 .header{
     background-color: #393f4d;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .sidebar {
     background-color: #C50208;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 
 .nav {
@@ -22,4 +35,6 @@
 
 .footer {
     background-color: #393f4d;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
